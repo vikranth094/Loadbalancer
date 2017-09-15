@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="UAG_Loadbalancer.jnlp">
+  <information>
+    <title>UAG_Loadbalancer</title>
+    <vendor>vikranth</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="UAG_Loadbalancer.jar" size="7724" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="UAG_Loadbalancer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="uag_loadbalancer.UAG_Loadbalancer"  name="UAG_Loadbalancer" />
+  <update check="always"/>
+</jnlp>
