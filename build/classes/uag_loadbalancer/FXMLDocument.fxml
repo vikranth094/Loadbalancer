@@ -9,7 +9,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="517.0" prefWidth="576.0" style="-fx-background-color: #dddddd;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uag_loadbalancer.FXMLDocumentController">
     <children>
-      <AnchorPane layoutX="-2.0" prefHeight="517.0" prefWidth="604.0" style="-fx-background-color: #ffffff;">
+      <AnchorPane layoutY="-7.0" prefHeight="540.0" prefWidth="618.0" style="-fx-background-color: #ffffff;">
          <children>
             <TextField fx:id="uaginput" layoutX="138.0" layoutY="134.0" mouseTransparent="true" prefHeight="20.0" prefWidth="199.0" promptText="Enter number of UAG's">
                <font>
@@ -36,6 +36,26 @@
                </columnResizePolicy>
                
             </TableView>
+            <Button fx:id="start" layoutX="256.0" layoutY="378.0" mnemonicParsing="false" onAction="#startClick" text="Start Load Balancer" textFill="#009416">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="stop" layoutX="256.0" layoutY="428.0" mnemonicParsing="false" onAction="#stopClick" text="Stop Load Balancer" textFill="#009416">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="status" layoutX="238.0" layoutY="474.0" text="Status" textFill="#b71717">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="myip" alignment="CENTER" layoutX="62.0" layoutY="81.0" prefHeight="31.0" prefWidth="493.0" style="-fx-text-alignment: centre;" text="Label" textFill="#b71717">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
     </children>

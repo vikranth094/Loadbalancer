@@ -1,0 +1,19 @@
+ProxySet lbmethod=byrequests
+</Proxy>
+SSLProxyEngine On
+RequestHeader set Front-End-Https "On"
+ProxyPass / balancer://myclustername/ stickysession=ROUTEID
+ProxyPassReverse / balancer://myclustername/
+
+
+<Location /balancer-manager>
+SetHandler balancer-manager
+
+Order Deny,Allow
+Deny from all
+Allow from all
+</Location>
+LogFormat "\"%{BALANCER_WORKER_NAME}e\"" combined
+CustomLog logs/loadAccess.log combined
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

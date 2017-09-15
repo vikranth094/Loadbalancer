@@ -1,0 +1,689 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14864:tid 672] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 20:42:49.889934 2017] [ssl:warn] [pid 14864:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 20:42:49.889934 2017] [ssl:warn] [pid 14864:tid 672] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 20:42:49.889934 2017] [mpm_winnt:notice] [pid 14864:tid 672] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 20:42:49.889934 2017] [mpm_winnt:notice] [pid 14864:tid 672] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 20:42:49.889934 2017] [core:notice] [pid 14864:tid 672] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 20:42:49.889934 2017] [mpm_winnt:notice] [pid 14864:tid 672] AH00418: Parent: Created child process 1172
+[Thu Sep 14 20:42:50.243815 2017] [ssl:warn] [pid 1172:tid 596] AH01916: Init: (vikranth:443) You configured HTTP(80) on the standard HTTPS(443) port!
+[Thu Sep 14 20:42:50.275070 2017] [ssl:warn] [pid 1172:tid 596] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 20:42:50.275070 2017] [ssl:warn] [pid 1172:tid 596] AH01916: Init: (vikranth:443) You configured HTTP(80) on the standard HTTPS(443) port!
+[Thu Sep 14 20:42:50.275070 2017] [mpm_winnt:notice] [pid 1172:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 20:43:44.052696 2017] [mpm_winnt:notice] [pid 14864:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 14 20:43:46.071126 2017] [mpm_winnt:notice] [pid 1172:tid 596] AH00364: Child: All worker threads have exited.
+[Thu Sep 14 20:43:46.086738 2017] [mpm_winnt:notice] [pid 14864:tid 672] AH00430: Parent: Child process 1172 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 16136:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:31:30.938231 2017] [mpm_winnt:notice] [pid 16136:tid 688] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:31:30.938231 2017] [mpm_winnt:notice] [pid 16136:tid 688] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:31:30.938231 2017] [core:notice] [pid 16136:tid 688] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:31:30.953856 2017] [mpm_winnt:notice] [pid 16136:tid 688] AH00418: Parent: Created child process 15324
+[Thu Sep 14 21:31:31.354534 2017] [ssl:warn] [pid 15324:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:31:31.370160 2017] [mpm_winnt:notice] [pid 15324:tid 632] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:32:32.762222 2017] [mpm_winnt:notice] [pid 16136:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 14 21:32:50.591058 2017] [mpm_winnt:notice] [pid 15324:tid 632] AH00364: Child: All worker threads have exited.
+[Thu Sep 14 21:32:50.606646 2017] [mpm_winnt:notice] [pid 16136:tid 688] AH00430: Parent: Child process 15324 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 2204:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:33:52.863374 2017] [mpm_winnt:notice] [pid 2204:tid 696] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:33:52.863374 2017] [mpm_winnt:notice] [pid 2204:tid 696] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:33:52.863374 2017] [core:notice] [pid 2204:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:33:52.863374 2017] [mpm_winnt:notice] [pid 2204:tid 696] AH00418: Parent: Created child process 968
+[Thu Sep 14 21:33:53.232916 2017] [ssl:warn] [pid 968:tid 596] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:33:53.248544 2017] [mpm_winnt:notice] [pid 968:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:35:32.068142 2017] [mpm_winnt:notice] [pid 2204:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 14 21:35:34.102046 2017] [mpm_winnt:notice] [pid 968:tid 596] AH00364: Child: All worker threads have exited.
+[Thu Sep 14 21:35:34.117647 2017] [mpm_winnt:notice] [pid 2204:tid 696] AH00430: Parent: Child process 968 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 11756:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:35:46.456028 2017] [mpm_winnt:notice] [pid 11756:tid 684] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:35:46.456028 2017] [mpm_winnt:notice] [pid 11756:tid 684] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:35:46.456028 2017] [core:notice] [pid 11756:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:35:46.456028 2017] [mpm_winnt:notice] [pid 11756:tid 684] AH00418: Parent: Created child process 9200
+[Thu Sep 14 21:35:46.850695 2017] [ssl:warn] [pid 9200:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:35:46.866356 2017] [mpm_winnt:notice] [pid 9200:tid 648] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:38:13.917899 2017] [mpm_winnt:notice] [pid 11756:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 14 21:38:15.929090 2017] [mpm_winnt:notice] [pid 9200:tid 648] AH00364: Child: All worker threads have exited.
+[Thu Sep 14 21:38:15.950339 2017] [mpm_winnt:notice] [pid 11756:tid 684] AH00430: Parent: Child process 9200 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 16368:tid 520] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:43:50.035995 2017] [core:error] [pid 16368:tid 520] (OS 11001)No such host is known.  : AH00547: Could not resolve host name loacalhost -- ignoring!
+[Thu Sep 14 21:43:50.072739 2017] [ssl:warn] [pid 16368:tid 520] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:43:50.072739 2017] [ssl:warn] [pid 16368:tid 520] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:43:50.072739 2017] [mpm_winnt:notice] [pid 16368:tid 520] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:43:50.072739 2017] [mpm_winnt:notice] [pid 16368:tid 520] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:43:50.072739 2017] [core:notice] [pid 16368:tid 520] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:43:50.103981 2017] [mpm_winnt:notice] [pid 16368:tid 520] AH00418: Parent: Created child process 16672
+[Thu Sep 14 21:43:52.789813 2017] [core:error] [pid 16672:tid 388] (OS 11001)No such host is known.  : AH00547: Could not resolve host name loacalhost -- ignoring!
+[Thu Sep 14 21:43:52.841680 2017] [ssl:warn] [pid 16672:tid 388] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:43:55.223930 2017] [core:error] [pid 16672:tid 388] (OS 11001)No such host is known.  : AH00547: Could not resolve host name loacalhost -- ignoring!
+[Thu Sep 14 21:43:55.245846 2017] [ssl:warn] [pid 16672:tid 388] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:43:55.261475 2017] [ssl:warn] [pid 16672:tid 388] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:43:55.277098 2017] [mpm_winnt:notice] [pid 16672:tid 388] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:crit] [pid 16672:tid 388] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:warn] [pid 16672:tid 628] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:warn] [pid 16672:tid 616] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:error] [pid 16672:tid 628] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:notice] [pid 16672:tid 628] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:error] [pid 16672:tid 616] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Thu Sep 14 21:44:18.836137 2017] [mpm_winnt:notice] [pid 16672:tid 616] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Thu Sep 14 21:44:20.852512 2017] [mpm_winnt:notice] [pid 16672:tid 388] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 9896:tid 412] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:44:51.421116 2017] [core:warn] [pid 9896:tid 412] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 14 21:44:51.421116 2017] [ssl:warn] [pid 9896:tid 412] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:44:51.421116 2017] [ssl:warn] [pid 9896:tid 412] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:44:51.436739 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:44:51.436739 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:44:51.436739 2017] [core:notice] [pid 9896:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:44:51.436739 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00418: Parent: Created child process 800
+[Thu Sep 14 21:44:51.987210 2017] [ssl:warn] [pid 800:tid 636] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:44:52.034109 2017] [ssl:warn] [pid 800:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:44:52.034109 2017] [ssl:warn] [pid 800:tid 636] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:44:52.034109 2017] [mpm_winnt:notice] [pid 800:tid 636] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 9896:tid 412] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Sep 14 21:45:39.929155 2017] [ssl:warn] [pid 9896:tid 412] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:45:39.929155 2017] [ssl:warn] [pid 9896:tid 412] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:45:39.929155 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:45:39.929155 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:45:39.929155 2017] [core:notice] [pid 9896:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:45:39.929155 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00418: Parent: Created child process 3356
+[Thu Sep 14 21:45:40.498308 2017] [ssl:warn] [pid 3356:tid 620] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:45:40.529557 2017] [ssl:warn] [pid 3356:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:45:40.529557 2017] [ssl:warn] [pid 3356:tid 620] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:45:40.867510 2017] [mpm_winnt:notice] [pid 3356:tid 620] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:45:41.868212 2017] [mpm_winnt:notice] [pid 800:tid 636] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 9896:tid 412] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Sep 14 21:50:40.397027 2017] [ssl:warn] [pid 9896:tid 412] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:50:40.397027 2017] [ssl:warn] [pid 9896:tid 412] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:50:40.397027 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 21:50:40.397027 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 21:50:40.397027 2017] [core:notice] [pid 9896:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 21:50:40.412652 2017] [mpm_winnt:notice] [pid 9896:tid 412] AH00418: Parent: Created child process 9924
+[Thu Sep 14 21:50:40.734660 2017] [ssl:warn] [pid 9924:tid 136] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:50:40.765907 2017] [ssl:warn] [pid 9924:tid 136] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:50:40.765907 2017] [ssl:warn] [pid 9924:tid 136] AH01906: vikranth:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 14 21:50:41.382027 2017] [mpm_winnt:notice] [pid 9924:tid 136] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 21:51:10.694510 2017] [mpm_winnt:notice] [pid 3356:tid 620] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Failed to restart the 'Apache2.4' service.
+t:notice] [pid 9896:tid 412] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Sep 14 21:59:46.343873 2017] [ssl:warn] [pid 9896:tid 412] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 21:59:46.343873 2017] [ssl:emerg] [pid 9896:tid 412] AH02565: Certificate and private key vikranth:443:0 from C:/Apache24/server.crt and C:/Apache24/server.key do not match
+[Thu Sep 14 21:59:46.343873 2017] [:emerg] [pid 9896:tid 412] AH00020: Configuration Failed, exiting
+[Thu Sep 14 21:59:48.329844 2017] [mpm_winnt:notice] [pid 9924:tid 136] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 1048:tid 676] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 14 22:02:33.431134 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:02:33.431134 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 22:02:33.431134 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 22:02:33.431134 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 22:02:33.446412 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 10304
+[Thu Sep 14 22:02:33.915574 2017] [ssl:warn] [pid 10304:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:02:33.915574 2017] [mpm_winnt:notice] [pid 10304:tid 632] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Sep 14 22:07:59.115091 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:07:59.115091 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 22:07:59.115091 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 22:07:59.115091 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 22:07:59.130489 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 7936
+[Thu Sep 14 22:07:59.531393 2017] [ssl:warn] [pid 7936:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:08:00.031553 2017] [mpm_winnt:notice] [pid 7936:tid 644] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 22:08:10.796983 2017] [mpm_winnt:notice] [pid 10304:tid 632] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Sep 14 22:10:02.965282 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:10:02.965282 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Sep 14 22:10:02.965282 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Sep 14 22:10:02.965282 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 14 22:10:02.965282 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 16952
+[Thu Sep 14 22:10:03.397198 2017] [ssl:warn] [pid 16952:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 14 22:10:03.944245 2017] [mpm_winnt:notice] [pid 16952:tid 632] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 14 22:10:04.945582 2017] [mpm_winnt:notice] [pid 7936:tid 644] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:22:23.719150 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:22:23.719150 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:22:23.719150 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:22:23.719150 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:22:23.719150 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 14908
+[Fri Sep 15 09:22:24.219375 2017] [ssl:warn] [pid 14908:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:22:24.667950 2017] [mpm_winnt:notice] [pid 14908:tid 636] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:22:25.670322 2017] [mpm_winnt:notice] [pid 16952:tid 632] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:23:32.047872 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:23:32.047872 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:23:32.047872 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:23:32.047872 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:23:32.047872 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 15628
+[Fri Sep 15 09:23:32.432717 2017] [ssl:warn] [pid 15628:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:23:33.001747 2017] [mpm_winnt:notice] [pid 15628:tid 652] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:23:34.002731 2017] [mpm_winnt:notice] [pid 14908:tid 636] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:25:17.218688 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:25:17.218688 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:25:17.218688 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:25:17.218688 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:25:17.234314 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 2444
+[Fri Sep 15 09:25:17.657014 2017] [ssl:warn] [pid 2444:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:25:18.189392 2017] [mpm_winnt:notice] [pid 2444:tid 656] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:25:19.190106 2017] [mpm_winnt:notice] [pid 15628:tid 652] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:32:19.323350 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:32:19.323350 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:32:19.323350 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:32:19.323350 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:32:19.323350 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 13208
+[Fri Sep 15 09:32:19.759609 2017] [ssl:warn] [pid 13208:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:32:20.263614 2017] [mpm_winnt:notice] [pid 13208:tid 660] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:32:21.271694 2017] [mpm_winnt:notice] [pid 2444:tid 656] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:35:25.907058 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:35:25.909064 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:35:25.909064 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:35:25.909064 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:35:25.916085 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 17020
+[Fri Sep 15 09:35:26.284524 2017] [ssl:warn] [pid 17020:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:35:26.850872 2017] [mpm_winnt:notice] [pid 17020:tid 640] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:35:27.852461 2017] [mpm_winnt:notice] [pid 13208:tid 660] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:36:26.774013 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:36:26.774013 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:36:26.774013 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:36:26.774013 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:36:26.789646 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 13708
+[Fri Sep 15 09:36:27.166233 2017] [ssl:warn] [pid 13708:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:36:27.744261 2017] [mpm_winnt:notice] [pid 13708:tid 632] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:36:28.746984 2017] [mpm_winnt:notice] [pid 17020:tid 640] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 1048:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Sep 15 09:42:26.075207 2017] [ssl:warn] [pid 1048:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:42:26.075207 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:42:26.075207 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:42:26.075207 2017] [core:notice] [pid 1048:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:42:26.075207 2017] [mpm_winnt:notice] [pid 1048:tid 676] AH00418: Parent: Created child process 12620
+[Fri Sep 15 09:42:26.459594 2017] [ssl:warn] [pid 12620:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:42:27.044629 2017] [mpm_winnt:notice] [pid 12620:tid 628] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:42:28.060686 2017] [mpm_winnt:notice] [pid 13708:tid 632] AH00364: Child: All worker threads have exited.
+[Fri Sep 15 09:46:28.362802 2017] [mpm_winnt:crit] [pid 12620:tid 628] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Sep 15 09:46:28.362802 2017] [mpm_winnt:warn] [pid 12620:tid 1360] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 15 09:46:28.362802 2017] [mpm_winnt:error] [pid 12620:tid 1360] (OS 10022)An invalid argument was supplied.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Fri Sep 15 09:46:28.362802 2017] [mpm_winnt:notice] [pid 12620:tid 1360] (OS 10022)An invalid argument was supplied.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Fri Sep 15 09:46:28.362802 2017] [mpm_winnt:warn] [pid 12620:tid 640] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 16720:tid 672] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 15 09:47:01.941340 2017] [ssl:warn] [pid 16720:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:47:01.941340 2017] [mpm_winnt:notice] [pid 16720:tid 672] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:47:01.941340 2017] [mpm_winnt:notice] [pid 16720:tid 672] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:47:01.941340 2017] [core:notice] [pid 16720:tid 672] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:47:01.941340 2017] [mpm_winnt:notice] [pid 16720:tid 672] AH00418: Parent: Created child process 13868
+[Fri Sep 15 09:47:02.325651 2017] [ssl:warn] [pid 13868:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:47:02.341277 2017] [mpm_winnt:notice] [pid 13868:tid 612] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+Failed to restart the 'Apache2.4' service.
+t:notice] [pid 16720:tid 672] AH00424: Parent: Received restart signal -- Restarting the server.
+(OS 10048)Only one usage of each socket address (protocol/network address/port) is normally permitted.  : AH00072: make_sock: could not bind to address 0.0.0.0:8080
+AH00451: no listening sockets available, shutting down
+[Fri Sep 15 09:47:53.098807 2017] [:emerg] [pid 16720:tid 672] AH00019: Unable to open logs, exiting
+[Fri Sep 15 09:47:55.085910 2017] [mpm_winnt:notice] [pid 13868:tid 612] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 12748:tid 352] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 15 09:48:45.041573 2017] [ssl:warn] [pid 12748:tid 352] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:48:45.057151 2017] [mpm_winnt:notice] [pid 12748:tid 352] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 09:48:45.057151 2017] [mpm_winnt:notice] [pid 12748:tid 352] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 09:48:45.057151 2017] [core:notice] [pid 12748:tid 352] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 09:48:45.057151 2017] [mpm_winnt:notice] [pid 12748:tid 352] AH00418: Parent: Created child process 9416
+[Fri Sep 15 09:48:45.472948 2017] [ssl:warn] [pid 9416:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 09:48:45.472948 2017] [mpm_winnt:notice] [pid 9416:tid 624] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 09:49:43.243637 2017] [mpm_winnt:notice] [pid 12748:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 15 09:49:45.260022 2017] [mpm_winnt:notice] [pid 9416:tid 624] AH00364: Child: All worker threads have exited.
+[Fri Sep 15 09:49:45.281668 2017] [mpm_winnt:notice] [pid 12748:tid 352] AH00430: Parent: Child process 9416 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 9552:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:43:04.498002 2017] [mpm_winnt:notice] [pid 9552:tid 704] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:43:04.498002 2017] [mpm_winnt:notice] [pid 9552:tid 704] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:43:04.498002 2017] [core:notice] [pid 9552:tid 704] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:43:04.505026 2017] [mpm_winnt:notice] [pid 9552:tid 704] AH00418: Parent: Created child process 13392
+[Fri Sep 15 20:43:04.966242 2017] [ssl:warn] [pid 13392:tid 416] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:43:04.976268 2017] [mpm_winnt:notice] [pid 13392:tid 416] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 20:47:29.749637 2017] [mpm_winnt:crit] [pid 13392:tid 416] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Sep 15 20:47:29.749637 2017] [mpm_winnt:warn] [pid 13392:tid 4] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 15 20:47:29.749637 2017] [mpm_winnt:warn] [pid 13392:tid 460] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 15 20:47:31.765693 2017] [mpm_winnt:notice] [pid 13392:tid 416] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 8952:tid 668] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 15 20:47:40.561808 2017] [ssl:warn] [pid 8952:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:47:40.561808 2017] [mpm_winnt:notice] [pid 8952:tid 668] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:47:40.561808 2017] [mpm_winnt:notice] [pid 8952:tid 668] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:47:40.561808 2017] [core:notice] [pid 8952:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:47:40.561808 2017] [mpm_winnt:notice] [pid 8952:tid 668] AH00418: Parent: Created child process 12932
+[Fri Sep 15 20:47:40.999362 2017] [ssl:warn] [pid 12932:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:47:41.014984 2017] [mpm_winnt:notice] [pid 12932:tid 628] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 20:49:04.473683 2017] [mpm_winnt:notice] [pid 8952:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 15 20:49:06.502794 2017] [mpm_winnt:notice] [pid 12932:tid 628] AH00364: Child: All worker threads have exited.
+[Fri Sep 15 20:49:06.533829 2017] [mpm_winnt:notice] [pid 8952:tid 668] AH00430: Parent: Child process 12932 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 3732:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:09.249752 2017] [mpm_winnt:notice] [pid 3732:tid 724] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:49:09.249752 2017] [mpm_winnt:notice] [pid 3732:tid 724] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:49:09.249752 2017] [core:notice] [pid 3732:tid 724] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:49:09.249752 2017] [mpm_winnt:notice] [pid 3732:tid 724] AH00418: Parent: Created child process 9672
+[Fri Sep 15 20:49:09.671348 2017] [ssl:warn] [pid 9672:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:09.687007 2017] [mpm_winnt:notice] [pid 9672:tid 636] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 20:49:35.162165 2017] [mpm_winnt:notice] [pid 3732:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 15 20:49:37.194173 2017] [mpm_winnt:notice] [pid 9672:tid 636] AH00364: Child: All worker threads have exited.
+[Fri Sep 15 20:49:37.224873 2017] [mpm_winnt:notice] [pid 3732:tid 724] AH00430: Parent: Child process 9672 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 8572:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:40.027873 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:49:40.027873 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:49:40.027873 2017] [core:notice] [pid 8572:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:49:40.027873 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00418: Parent: Created child process 10664
+[Fri Sep 15 20:49:40.430321 2017] [ssl:warn] [pid 10664:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:40.445948 2017] [mpm_winnt:notice] [pid 10664:tid 632] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 20:49:56.955096 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00428: Parent: child process 10664 exited with status 1 -- Restarting.
+[Fri Sep 15 20:49:57.032983 2017] [ssl:warn] [pid 8572:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:57.032983 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:49:57.032983 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:49:57.032983 2017] [core:notice] [pid 8572:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:49:57.048613 2017] [mpm_winnt:notice] [pid 8572:tid 652] AH00418: Parent: Created child process 11540
+[Fri Sep 15 20:49:57.439274 2017] [ssl:warn] [pid 11540:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:49:57.454901 2017] [mpm_winnt:notice] [pid 11540:tid 648] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 15 20:49:59.564778 2017] [mpm_winnt:crit] [pid 11540:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Sep 15 20:49:59.564778 2017] [mpm_winnt:warn] [pid 11540:tid 660] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 15 20:49:59.564778 2017] [mpm_winnt:warn] [pid 11540:tid 656] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 15 20:50:01.596103 2017] [mpm_winnt:notice] [pid 11540:tid 648] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 4180:tid 680] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 15 20:50:23.196530 2017] [ssl:warn] [pid 4180:tid 680] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:50:23.196530 2017] [mpm_winnt:notice] [pid 4180:tid 680] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 20:50:23.196530 2017] [mpm_winnt:notice] [pid 4180:tid 680] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 20:50:23.196530 2017] [core:notice] [pid 4180:tid 680] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 15 20:50:23.212156 2017] [mpm_winnt:notice] [pid 4180:tid 680] AH00418: Parent: Created child process 6248
+[Fri Sep 15 20:50:23.618449 2017] [ssl:warn] [pid 6248:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 20:50:23.618449 2017] [mpm_winnt:notice] [pid 6248:tid 620] AH00354: Child: Starting 64 worker threads.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 12988:tid 680] AH00098: pid file C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 15 23:59:30.826607 2017] [ssl:warn] [pid 12988:tid 680] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 23:59:30.828613 2017] [mpm_winnt:notice] [pid 12988:tid 680] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Sep 15 23:59:30.828613 2017] [mpm_winnt:notice] [pid 12988:tid 680] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Sep 15 23:59:30.828613 2017] [core:notice] [pid 12988:tid 680] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Fri Sep 15 23:59:30.841647 2017] [mpm_winnt:notice] [pid 12988:tid 680] AH00418: Parent: Created child process 6404
+[Fri Sep 15 23:59:33.290567 2017] [ssl:warn] [pid 6404:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 15 23:59:33.297586 2017] [mpm_winnt:notice] [pid 6404:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:00:20.528150 2017] [mpm_winnt:notice] [pid 12988:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:00:22.529433 2017] [mpm_winnt:notice] [pid 6404:tid 668] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:00:22.546478 2017] [mpm_winnt:notice] [pid 12988:tid 680] AH00430: Parent: Child process 6404 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 16024:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:00:25.308842 2017] [mpm_winnt:notice] [pid 16024:tid 696] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:00:25.308842 2017] [mpm_winnt:notice] [pid 16024:tid 696] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:00:25.308842 2017] [core:notice] [pid 16024:tid 696] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:00:25.318868 2017] [mpm_winnt:notice] [pid 16024:tid 696] AH00418: Parent: Created child process 9404
+[Sat Sep 16 00:00:25.847264 2017] [ssl:warn] [pid 9404:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:00:25.859296 2017] [mpm_winnt:notice] [pid 9404:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:03:41.475035 2017] [mpm_winnt:notice] [pid 16024:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:03:43.478542 2017] [mpm_winnt:notice] [pid 9404:tid 628] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:03:43.506617 2017] [mpm_winnt:notice] [pid 16024:tid 696] AH00430: Parent: Child process 9404 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 11492:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:03:46.166590 2017] [mpm_winnt:notice] [pid 11492:tid 708] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:03:46.166590 2017] [mpm_winnt:notice] [pid 11492:tid 708] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:03:46.166590 2017] [core:notice] [pid 11492:tid 708] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:03:46.176619 2017] [mpm_winnt:notice] [pid 11492:tid 708] AH00418: Parent: Created child process 9204
+[Sat Sep 16 00:03:46.620192 2017] [ssl:warn] [pid 9204:tid 388] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:03:46.632223 2017] [mpm_winnt:notice] [pid 9204:tid 388] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:04:56.440675 2017] [mpm_winnt:notice] [pid 11492:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:04:58.442317 2017] [mpm_winnt:notice] [pid 9204:tid 388] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:04:58.471349 2017] [mpm_winnt:notice] [pid 11492:tid 708] AH00430: Parent: Child process 9204 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 10604:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:05:01.802235 2017] [mpm_winnt:notice] [pid 10604:tid 692] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:05:01.802235 2017] [mpm_winnt:notice] [pid 10604:tid 692] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:05:01.802235 2017] [core:notice] [pid 10604:tid 692] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:05:01.811256 2017] [mpm_winnt:notice] [pid 10604:tid 692] AH00418: Parent: Created child process 2896
+[Sat Sep 16 00:05:02.248258 2017] [ssl:warn] [pid 2896:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:05:02.254305 2017] [mpm_winnt:notice] [pid 2896:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:06:40.778430 2017] [mpm_winnt:notice] [pid 10604:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:06:42.779874 2017] [mpm_winnt:notice] [pid 2896:tid 628] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:06:42.795916 2017] [mpm_winnt:notice] [pid 10604:tid 692] AH00430: Parent: Child process 2896 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 3308:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:06:45.635482 2017] [mpm_winnt:notice] [pid 3308:tid 720] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:06:45.635482 2017] [mpm_winnt:notice] [pid 3308:tid 720] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:06:45.635482 2017] [core:notice] [pid 3308:tid 720] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:06:45.645509 2017] [mpm_winnt:notice] [pid 3308:tid 720] AH00418: Parent: Created child process 13288
+[Sat Sep 16 00:06:46.176912 2017] [ssl:warn] [pid 13288:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:06:46.185934 2017] [mpm_winnt:notice] [pid 13288:tid 640] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:07:25.432615 2017] [mpm_winnt:notice] [pid 3308:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:07:27.434951 2017] [mpm_winnt:notice] [pid 13288:tid 640] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:07:27.455957 2017] [mpm_winnt:notice] [pid 3308:tid 720] AH00430: Parent: Child process 13288 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 12248:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:07:30.457044 2017] [mpm_winnt:notice] [pid 12248:tid 696] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:07:30.457044 2017] [mpm_winnt:notice] [pid 12248:tid 696] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:07:30.457044 2017] [core:notice] [pid 12248:tid 696] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:07:30.466069 2017] [mpm_winnt:notice] [pid 12248:tid 696] AH00418: Parent: Created child process 10760
+[Sat Sep 16 00:07:31.023539 2017] [ssl:warn] [pid 10760:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:07:31.029554 2017] [mpm_winnt:notice] [pid 10760:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:09:12.543710 2017] [mpm_winnt:notice] [pid 12248:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:09:14.544253 2017] [mpm_winnt:notice] [pid 10760:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:09:14.559296 2017] [mpm_winnt:notice] [pid 12248:tid 696] AH00430: Parent: Child process 10760 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 2796:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:09:17.221462 2017] [mpm_winnt:notice] [pid 2796:tid 720] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:09:17.221462 2017] [mpm_winnt:notice] [pid 2796:tid 720] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:09:17.221462 2017] [core:notice] [pid 2796:tid 720] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:09:17.231489 2017] [mpm_winnt:notice] [pid 2796:tid 720] AH00418: Parent: Created child process 14508
+[Sat Sep 16 00:09:17.719777 2017] [ssl:warn] [pid 14508:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:09:17.739830 2017] [mpm_winnt:notice] [pid 14508:tid 632] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:10:00.343411 2017] [mpm_winnt:notice] [pid 2796:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:10:02.344934 2017] [mpm_winnt:notice] [pid 14508:tid 632] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:10:02.360938 2017] [mpm_winnt:notice] [pid 2796:tid 720] AH00430: Parent: Child process 14508 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 5696:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:10:04.894726 2017] [mpm_winnt:notice] [pid 5696:tid 708] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:10:04.894726 2017] [mpm_winnt:notice] [pid 5696:tid 708] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:10:04.894726 2017] [core:notice] [pid 5696:tid 708] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:10:04.904742 2017] [mpm_winnt:notice] [pid 5696:tid 708] AH00418: Parent: Created child process 13892
+[Sat Sep 16 00:10:05.320841 2017] [ssl:warn] [pid 13892:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:10:05.325855 2017] [mpm_winnt:notice] [pid 13892:tid 672] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:10:56.956848 2017] [mpm_winnt:notice] [pid 5696:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:10:58.958882 2017] [mpm_winnt:notice] [pid 13892:tid 672] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:10:58.986953 2017] [mpm_winnt:notice] [pid 5696:tid 708] AH00430: Parent: Child process 13892 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 6804:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:11:01.643677 2017] [mpm_winnt:notice] [pid 6804:tid 720] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:11:01.643677 2017] [mpm_winnt:notice] [pid 6804:tid 720] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:11:01.643677 2017] [core:notice] [pid 6804:tid 720] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:11:01.661727 2017] [mpm_winnt:notice] [pid 6804:tid 720] AH00418: Parent: Created child process 11252
+[Sat Sep 16 00:11:02.198146 2017] [ssl:warn] [pid 11252:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:11:02.219201 2017] [mpm_winnt:notice] [pid 11252:tid 620] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:11:43.968565 2017] [mpm_winnt:notice] [pid 6804:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:11:45.969639 2017] [mpm_winnt:notice] [pid 11252:tid 620] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:11:45.995514 2017] [mpm_winnt:notice] [pid 6804:tid 720] AH00430: Parent: Child process 11252 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14240:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:11:48.682373 2017] [mpm_winnt:notice] [pid 14240:tid 684] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:11:48.682373 2017] [mpm_winnt:notice] [pid 14240:tid 684] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:11:48.682373 2017] [core:notice] [pid 14240:tid 684] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:11:48.700498 2017] [mpm_winnt:notice] [pid 14240:tid 684] AH00418: Parent: Created child process 9416
+[Sat Sep 16 00:11:49.259314 2017] [ssl:warn] [pid 9416:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:11:49.265330 2017] [mpm_winnt:notice] [pid 9416:tid 616] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:12:53.360445 2017] [mpm_winnt:notice] [pid 14240:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:12:55.361519 2017] [mpm_winnt:notice] [pid 9416:tid 616] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:12:55.377562 2017] [mpm_winnt:notice] [pid 14240:tid 684] AH00430: Parent: Child process 9416 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 4972:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:12:58.057149 2017] [mpm_winnt:notice] [pid 4972:tid 684] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:12:58.057149 2017] [mpm_winnt:notice] [pid 4972:tid 684] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:12:58.057149 2017] [core:notice] [pid 4972:tid 684] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:12:58.081212 2017] [mpm_winnt:notice] [pid 4972:tid 684] AH00418: Parent: Created child process 17056
+[Sat Sep 16 00:12:58.694164 2017] [ssl:warn] [pid 17056:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:12:58.700205 2017] [mpm_winnt:notice] [pid 17056:tid 616] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:15:12.386917 2017] [mpm_winnt:notice] [pid 4972:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:15:14.388900 2017] [mpm_winnt:notice] [pid 17056:tid 616] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:15:14.413927 2017] [mpm_winnt:notice] [pid 4972:tid 684] AH00430: Parent: Child process 17056 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 6656:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:15:17.136060 2017] [mpm_winnt:notice] [pid 6656:tid 692] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:15:17.136060 2017] [mpm_winnt:notice] [pid 6656:tid 692] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:15:17.136060 2017] [core:notice] [pid 6656:tid 692] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:15:17.145084 2017] [mpm_winnt:notice] [pid 6656:tid 692] AH00418: Parent: Created child process 9336
+[Sat Sep 16 00:15:17.691854 2017] [ssl:warn] [pid 9336:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:15:17.697873 2017] [mpm_winnt:notice] [pid 9336:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:21:40.404581 2017] [mpm_winnt:notice] [pid 6656:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:21:42.409469 2017] [mpm_winnt:notice] [pid 9336:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:21:42.436618 2017] [mpm_winnt:notice] [pid 6656:tid 692] AH00430: Parent: Child process 9336 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 12888:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:21:45.273015 2017] [mpm_winnt:notice] [pid 12888:tid 684] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:21:45.273015 2017] [mpm_winnt:notice] [pid 12888:tid 684] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:21:45.273015 2017] [core:notice] [pid 12888:tid 684] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:21:45.282041 2017] [mpm_winnt:notice] [pid 12888:tid 684] AH00418: Parent: Created child process 11696
+[Sat Sep 16 00:21:45.896461 2017] [ssl:warn] [pid 11696:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:21:45.902477 2017] [mpm_winnt:notice] [pid 11696:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:22:02.438913 2017] [mpm_winnt:notice] [pid 12888:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:22:04.440671 2017] [mpm_winnt:notice] [pid 11696:tid 628] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:22:04.467885 2017] [mpm_winnt:notice] [pid 12888:tid 684] AH00430: Parent: Child process 11696 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 776:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:22:07.105797 2017] [mpm_winnt:notice] [pid 776:tid 672] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:22:07.105797 2017] [mpm_winnt:notice] [pid 776:tid 672] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:22:07.105797 2017] [core:notice] [pid 776:tid 672] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:22:07.115789 2017] [mpm_winnt:notice] [pid 776:tid 672] AH00418: Parent: Created child process 11000
+[Sat Sep 16 00:22:07.581051 2017] [ssl:warn] [pid 11000:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:22:07.587065 2017] [mpm_winnt:notice] [pid 11000:tid 656] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:23:28.576016 2017] [mpm_winnt:notice] [pid 776:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:23:30.578578 2017] [mpm_winnt:notice] [pid 11000:tid 656] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:23:30.604651 2017] [mpm_winnt:notice] [pid 776:tid 672] AH00430: Parent: Child process 11000 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14792:tid 664] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:27:23.015656 2017] [mpm_winnt:notice] [pid 14792:tid 664] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:27:23.015656 2017] [mpm_winnt:notice] [pid 14792:tid 664] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:27:23.015656 2017] [core:notice] [pid 14792:tid 664] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:27:23.025681 2017] [mpm_winnt:notice] [pid 14792:tid 664] AH00418: Parent: Created child process 14644
+[Sat Sep 16 00:27:23.661384 2017] [ssl:warn] [pid 14644:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:27:23.668402 2017] [mpm_winnt:notice] [pid 14644:tid 608] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:32:31.995805 2017] [mpm_winnt:notice] [pid 14792:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:32:33.997760 2017] [mpm_winnt:notice] [pid 14644:tid 608] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:32:34.013803 2017] [mpm_winnt:notice] [pid 14792:tid 664] AH00430: Parent: Child process 14644 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 4340:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:32:36.699624 2017] [mpm_winnt:notice] [pid 4340:tid 688] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:32:36.699624 2017] [mpm_winnt:notice] [pid 4340:tid 688] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:32:36.699624 2017] [core:notice] [pid 4340:tid 688] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:32:36.708648 2017] [mpm_winnt:notice] [pid 4340:tid 688] AH00418: Parent: Created child process 1608
+[Sat Sep 16 00:32:37.161930 2017] [ssl:warn] [pid 1608:tid 664] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:32:37.173962 2017] [mpm_winnt:notice] [pid 1608:tid 664] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:33:05.061617 2017] [mpm_winnt:notice] [pid 4340:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:33:07.063259 2017] [mpm_winnt:notice] [pid 1608:tid 664] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:33:07.090584 2017] [mpm_winnt:notice] [pid 4340:tid 688] AH00430: Parent: Child process 1608 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 15696:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:33:09.534686 2017] [mpm_winnt:notice] [pid 15696:tid 648] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:33:09.535690 2017] [mpm_winnt:notice] [pid 15696:tid 648] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:33:09.535690 2017] [core:notice] [pid 15696:tid 648] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:33:09.544675 2017] [mpm_winnt:notice] [pid 15696:tid 648] AH00418: Parent: Created child process 12724
+[Sat Sep 16 00:33:09.993876 2017] [ssl:warn] [pid 12724:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:33:09.999889 2017] [mpm_winnt:notice] [pid 12724:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:34:12.345759 2017] [mpm_winnt:notice] [pid 15696:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:34:14.351527 2017] [mpm_winnt:notice] [pid 12724:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:34:14.376720 2017] [mpm_winnt:notice] [pid 15696:tid 648] AH00430: Parent: Child process 12724 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14684:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:34:17.067203 2017] [mpm_winnt:notice] [pid 14684:tid 660] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:34:17.067203 2017] [mpm_winnt:notice] [pid 14684:tid 660] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:34:17.067203 2017] [core:notice] [pid 14684:tid 660] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:34:17.076228 2017] [mpm_winnt:notice] [pid 14684:tid 660] AH00418: Parent: Created child process 14764
+[Sat Sep 16 00:34:17.540861 2017] [ssl:warn] [pid 14764:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:34:17.546877 2017] [mpm_winnt:notice] [pid 14764:tid 612] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:35:05.825202 2017] [mpm_winnt:notice] [pid 14684:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:35:07.828162 2017] [mpm_winnt:notice] [pid 14764:tid 612] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:35:07.859214 2017] [mpm_winnt:notice] [pid 14684:tid 660] AH00430: Parent: Child process 14764 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 16088:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:35:10.508804 2017] [mpm_winnt:notice] [pid 16088:tid 684] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:35:10.508804 2017] [mpm_winnt:notice] [pid 16088:tid 684] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:35:10.508804 2017] [core:notice] [pid 16088:tid 684] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:35:10.517791 2017] [mpm_winnt:notice] [pid 16088:tid 684] AH00418: Parent: Created child process 6664
+[Sat Sep 16 00:35:10.965985 2017] [ssl:warn] [pid 6664:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:35:10.971998 2017] [mpm_winnt:notice] [pid 6664:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:40:45.669152 2017] [mpm_winnt:notice] [pid 16088:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:40:47.670852 2017] [mpm_winnt:notice] [pid 6664:tid 668] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:40:47.689902 2017] [mpm_winnt:notice] [pid 16088:tid 684] AH00430: Parent: Child process 6664 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 10812:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:40:50.557452 2017] [mpm_winnt:notice] [pid 10812:tid 676] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:40:50.557452 2017] [mpm_winnt:notice] [pid 10812:tid 676] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:40:50.557452 2017] [core:notice] [pid 10812:tid 676] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:40:50.567479 2017] [mpm_winnt:notice] [pid 10812:tid 676] AH00418: Parent: Created child process 5800
+[Sat Sep 16 00:40:50.973052 2017] [ssl:warn] [pid 5800:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:40:50.979069 2017] [mpm_winnt:notice] [pid 5800:tid 648] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:42:44.774212 2017] [mpm_winnt:notice] [pid 10812:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:42:46.776145 2017] [mpm_winnt:notice] [pid 5800:tid 648] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:42:46.804828 2017] [mpm_winnt:notice] [pid 10812:tid 676] AH00430: Parent: Child process 5800 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14480:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:42:49.856724 2017] [mpm_winnt:notice] [pid 14480:tid 712] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:42:49.856724 2017] [mpm_winnt:notice] [pid 14480:tid 712] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:42:49.856724 2017] [core:notice] [pid 14480:tid 712] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:42:49.866750 2017] [mpm_winnt:notice] [pid 14480:tid 712] AH00418: Parent: Created child process 8952
+[Sat Sep 16 00:42:50.296929 2017] [ssl:warn] [pid 8952:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:42:50.303910 2017] [mpm_winnt:notice] [pid 8952:tid 620] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:45:53.654496 2017] [mpm_winnt:notice] [pid 14480:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:45:55.655952 2017] [mpm_winnt:notice] [pid 8952:tid 620] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:45:55.684123 2017] [mpm_winnt:notice] [pid 14480:tid 712] AH00430: Parent: Child process 8952 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 11912:tid 436] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:45:58.758621 2017] [mpm_winnt:notice] [pid 11912:tid 436] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:45:58.758621 2017] [mpm_winnt:notice] [pid 11912:tid 436] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:45:58.758621 2017] [core:notice] [pid 11912:tid 436] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:45:58.771653 2017] [mpm_winnt:notice] [pid 11912:tid 436] AH00418: Parent: Created child process 9876
+[Sat Sep 16 00:45:59.204621 2017] [ssl:warn] [pid 9876:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:45:59.210632 2017] [mpm_winnt:notice] [pid 9876:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:47:19.924220 2017] [mpm_winnt:notice] [pid 11912:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:47:21.924808 2017] [mpm_winnt:notice] [pid 9876:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:47:21.945857 2017] [mpm_winnt:notice] [pid 11912:tid 436] AH00430: Parent: Child process 9876 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 10216:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:47:25.010929 2017] [mpm_winnt:notice] [pid 10216:tid 708] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:47:25.010929 2017] [mpm_winnt:notice] [pid 10216:tid 708] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:47:25.010929 2017] [core:notice] [pid 10216:tid 708] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:47:25.020951 2017] [mpm_winnt:notice] [pid 10216:tid 708] AH00418: Parent: Created child process 13276
+[Sat Sep 16 00:47:25.626305 2017] [ssl:warn] [pid 13276:tid 444] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:47:25.632318 2017] [mpm_winnt:notice] [pid 13276:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:52:41.783759 2017] [mpm_winnt:notice] [pid 10216:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:52:43.788725 2017] [mpm_winnt:notice] [pid 13276:tid 444] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:52:43.813221 2017] [mpm_winnt:notice] [pid 10216:tid 708] AH00430: Parent: Child process 13276 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 9932:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:52:46.670220 2017] [mpm_winnt:notice] [pid 9932:tid 688] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:52:46.670220 2017] [mpm_winnt:notice] [pid 9932:tid 688] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:52:46.670220 2017] [core:notice] [pid 9932:tid 688] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:52:46.680245 2017] [mpm_winnt:notice] [pid 9932:tid 688] AH00418: Parent: Created child process 2264
+[Sat Sep 16 00:52:47.114306 2017] [ssl:warn] [pid 2264:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:52:47.120347 2017] [mpm_winnt:notice] [pid 2264:tid 620] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:53:31.539293 2017] [mpm_winnt:notice] [pid 9932:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:53:33.540692 2017] [mpm_winnt:notice] [pid 2264:tid 620] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:53:33.556731 2017] [mpm_winnt:notice] [pid 9932:tid 688] AH00430: Parent: Child process 2264 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 6012:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:53:36.179835 2017] [mpm_winnt:notice] [pid 6012:tid 688] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:53:36.179835 2017] [mpm_winnt:notice] [pid 6012:tid 688] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:53:36.179835 2017] [core:notice] [pid 6012:tid 688] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:53:36.188823 2017] [mpm_winnt:notice] [pid 6012:tid 688] AH00418: Parent: Created child process 12584
+[Sat Sep 16 00:53:36.652955 2017] [ssl:warn] [pid 12584:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:53:36.666032 2017] [mpm_winnt:notice] [pid 12584:tid 632] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:53:41.878940 2017] [mpm_winnt:notice] [pid 6012:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:53:43.879815 2017] [mpm_winnt:notice] [pid 12584:tid 632] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:53:43.894853 2017] [mpm_winnt:notice] [pid 6012:tid 688] AH00430: Parent: Child process 12584 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 11728:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:00.046628 2017] [mpm_winnt:notice] [pid 11728:tid 644] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:55:00.046628 2017] [mpm_winnt:notice] [pid 11728:tid 644] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:55:00.046628 2017] [core:notice] [pid 11728:tid 644] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:55:00.056653 2017] [mpm_winnt:notice] [pid 11728:tid 644] AH00418: Parent: Created child process 11612
+[Sat Sep 16 00:55:00.657207 2017] [ssl:warn] [pid 11612:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:00.664225 2017] [mpm_winnt:notice] [pid 11612:tid 648] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:55:03.312781 2017] [mpm_winnt:notice] [pid 11728:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:55:05.314828 2017] [mpm_winnt:notice] [pid 11612:tid 648] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:55:05.333832 2017] [mpm_winnt:notice] [pid 11728:tid 644] AH00430: Parent: Child process 11612 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 1080:tid 108] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:27.044368 2017] [mpm_winnt:notice] [pid 1080:tid 108] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:55:27.044368 2017] [mpm_winnt:notice] [pid 1080:tid 108] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:55:27.044368 2017] [core:notice] [pid 1080:tid 108] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:55:27.054394 2017] [mpm_winnt:notice] [pid 1080:tid 108] AH00418: Parent: Created child process 10604
+[Sat Sep 16 00:55:27.524610 2017] [ssl:warn] [pid 10604:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:27.532631 2017] [mpm_winnt:notice] [pid 10604:tid 652] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:55:31.021968 2017] [mpm_winnt:notice] [pid 1080:tid 108] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:55:33.023398 2017] [mpm_winnt:notice] [pid 10604:tid 652] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:55:33.050159 2017] [mpm_winnt:notice] [pid 1080:tid 108] AH00430: Parent: Child process 10604 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 10696:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:46.230150 2017] [mpm_winnt:notice] [pid 10696:tid 660] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:55:46.230150 2017] [mpm_winnt:notice] [pid 10696:tid 660] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:55:46.230150 2017] [core:notice] [pid 10696:tid 660] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:55:46.239169 2017] [mpm_winnt:notice] [pid 10696:tid 660] AH00418: Parent: Created child process 760
+[Sat Sep 16 00:55:46.780570 2017] [ssl:warn] [pid 760:tid 148] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:46.787590 2017] [mpm_winnt:notice] [pid 760:tid 148] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:55:49.679869 2017] [mpm_winnt:notice] [pid 10696:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:55:51.681438 2017] [mpm_winnt:notice] [pid 760:tid 148] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:55:51.704814 2017] [mpm_winnt:notice] [pid 10696:tid 660] AH00430: Parent: Child process 760 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 4084:tid 700] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:57.279119 2017] [mpm_winnt:notice] [pid 4084:tid 700] AH00455: Apache/2.4.27 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Sep 16 00:55:57.279119 2017] [mpm_winnt:notice] [pid 4084:tid 700] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Sep 16 00:55:57.279119 2017] [core:notice] [pid 4084:tid 700] AH00094: Command line: 'C:\\Users\\vikranth\\DOCUME~1\\NETBEA~1\\UAG_LO~1\\Apache24\\bin\\httpd.exe -d C:/Users/vikranth/Documents/NetBeansProjects/UAG_Loadbalancer/Apache24'
+[Sat Sep 16 00:55:57.289110 2017] [mpm_winnt:notice] [pid 4084:tid 700] AH00418: Parent: Created child process 12784
+[Sat Sep 16 00:55:57.740276 2017] [ssl:warn] [pid 12784:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Sep 16 00:55:57.747294 2017] [mpm_winnt:notice] [pid 12784:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 16 00:56:03.066146 2017] [mpm_winnt:notice] [pid 4084:tid 700] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 16 00:56:05.067702 2017] [mpm_winnt:notice] [pid 12784:tid 636] AH00364: Child: All worker threads have exited.
+[Sat Sep 16 00:56:05.093566 2017] [mpm_winnt:notice] [pid 4084:tid 700] AH00430: Parent: Child process 12784 exited successfully.
