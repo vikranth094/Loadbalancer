@@ -7,10 +7,12 @@ package uag_loadbalancer;
 
 
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 /**
  *
@@ -25,8 +27,11 @@ public class UAG_Loadbalancer extends Application {
         Scene scene = new Scene(root);
         stage.setTitle("Load Balancer");
         stage.setResizable(false);
-        
-
+        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+      public void handle(WindowEvent we) {
+          System.exit(0);
+      }
+  }); 
         stage.setScene(scene);
         stage.show();
     }

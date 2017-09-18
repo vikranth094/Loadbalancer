@@ -14,7 +14,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;
 import java.net.URL;
+import java.security.cert.X509Certificate;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -30,6 +35,12 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 
 
 /**
@@ -38,6 +49,8 @@ import javafx.scene.control.cell.TextFieldTableCell;
  */
 public class FXMLDocumentController implements Initializable {
    ObservableList<uagDeatails> data; 
+   boolean flag=false;
+   ArrayList<uagList> uag;
     @FXML
     private Label error,status,myip;
      @FXML 
@@ -54,6 +67,8 @@ public class FXMLDocumentController implements Initializable {
     private void startClick(ActionEvent event)
     {
         
+        
+        StringBuffer sb=new StringBuffer();
                   BufferedReader bufReader = null;  
   BufferedWriter bufWriter = null;  
   
@@ -62,14 +77,31 @@ public class FXMLDocumentController implements Initializable {
    bufWriter = new BufferedWriter(new FileWriter(  
      "Apache24\\conf\\httpd.conf"));  
    String data;  
-   while ((data = bufReader.readLine()) != null) {  
-    System.out.println(data);  
-    bufWriter.write(data);  
-   }  
-    
-    bufReader.close();  
    
-    bufWriter.close();
+   while ((data = bufReader.readLine()) != null) {    
+      sb.append(data+"\n");
+      
+      
+   }
+   int i=1;
+ for(uagList ug:uag)
+ {
+     sb.append(String.format("BalancerMember %s:%s route=node%d", ug.url,"443",i)+"\n");
+     i++;
+     
+ }
+  bufReader = new BufferedReader(new FileReader("Apache24\\conf2.txt"));
+  
+     while ((data = bufReader.readLine()) != null) {  
+  //  System.out.println(data);  
+      sb.append(data+"\n");
+      
+      
+   }
+    bufWriter.write(sb.toString());
+    bufReader.close();  
+   bufWriter.close();
+   
   } catch (Exception e) {  
    e.printStackTrace();  
   } 
@@ -97,22 +129,130 @@ try {
    start.setVisible(false);
    stop.setVisible(true);
    status.setText("Status: Active");
+   ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
+exec.scheduleAtFixedRate(new Runnable() {
+  @Override
+  public void run() {
+    // do stuff
+    try{
+    for(uagList ug:uag)
+ {System.out.println(ug.url);
+         TrustManager[] trustAllCerts = new TrustManager[] {new X509TrustManager() {
+                public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+                    return null;
+                }
+                public void checkClientTrusted(X509Certificate[] certs, String authType) {
+                }
+                public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                }
+            }
+        };
+ 
+        // Install the all-trusting trust manager
+        SSLContext sc = SSLContext.getInstance("SSL");
+        sc.init(null, trustAllCerts, new java.security.SecureRandom());
+        HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+ 
+        // Create all-trusting host name verifier
+        HostnameVerifier allHostsValid = new HostnameVerifier() {
+            public boolean verify(String hostname, SSLSession session) {
+                return true;
+            }
+        };
+ 
+        // Install the all-trusting host verifier
+        HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+ 
+        URL url = new URL(ug.url+"/"+ug.healthName);
+        HttpsURLConnection con = (HttpsURLConnection)url.openConnection();
+        con.getResponseCode();
+        
+        if(String.valueOf(con.getResponseCode()).equals("200")&&ug.status.equals("down"))
+        {
+            //add
+            System.out.println("add");
+            ug.setStatus("up");
+            flag=true;
+            
+        }
+        else if(!String.valueOf(con.getResponseCode()).equals("200")&&ug.status.equals("up"))
+        {
+            //remove
+            System.out.println("remove");
+            ug.setStatus("down");
+            flag=true;
+        }
+ }
+    }catch(Exception e){ System.out.println("remove exception");}
+ if(flag){
+    StringBuffer sb=new StringBuffer();
+                  BufferedReader bufReader = null;  
+  BufferedWriter bufWriter = null;  
+  
+  try {  
+   bufReader = new BufferedReader(new FileReader("Apache24\\conf1.txt"));  
+   bufWriter = new BufferedWriter(new FileWriter(  
+     "Apache24\\conf\\httpd.conf"));  
+   String data;  
    
+   while ((data = bufReader.readLine()) != null) {    
+      sb.append(data+"\n");
+      
+      
+   }
+   int i=1;
+ for(uagList ug:uag)
+ {
+     if(ug.status.equals("up")){
+     sb.append(String.format("BalancerMember %s:%s route=node%d", ug.url,"443",i)+"\n");
+     i++;
+     }
+     
+ }
+  bufReader = new BufferedReader(new FileReader("Apache24\\conf2.txt"));
+  
+     while ((data = bufReader.readLine()) != null) {  
+  //  System.out.println(data);  
+      sb.append(data+"\n");
+      
+      
+   }
+    bufWriter.write(sb.toString());
+    bufReader.close();  
+   bufWriter.close();
+   
+  } catch (Exception e) {  
+   e.printStackTrace();  
+  }   
+ try {
+    InetAddress IP=InetAddress.getLocalHost();
+    
+    Process p1 = runtime.exec("cmd /c start Apache24\\bin\\restart.bat");
+    InputStream is = p1.getInputStream();
+    int i = 0;
+    while( (i = is.read() ) != -1) {
+        System.out.print((char)i);
+    }
+} catch(IOException ioException) {
+    System.out.println(ioException.getMessage() );
+} 
+ ObservableList<uagDeatails>  data2 =FXCollections.observableArrayList();
+ for(uagList ug:uag)
+        {
+            data2.add(new uagDeatails(ug.url, ug.healthName, ug.status));
+        }
+ table.setItems(data2);
+ flag=false;
+ }
+ 
+  }
+}, 0, 5, TimeUnit.SECONDS);
    
         
     }
     @FXML
     private void stopClick(ActionEvent event)
-    {
-
-    
-  
-  
-        
-        
-        
-        
-        
+    { 
         myip.setText("");
         try {
               Runtime runtime = Runtime.getRuntime();
@@ -129,6 +269,8 @@ try {
         status.setText("Status: Inactive");
         stop.setVisible(false);
         start.setVisible(true);
+        
+        table.setEditable(true);
         
     }
     @FXML
@@ -154,9 +296,11 @@ try {
             table.setEditable(true);
              data =FXCollections.observableArrayList();
             int n=Integer.parseInt(uaginput.getText());
+            uag=new ArrayList();
             for(int i=0;i<n;i++)
             {
                 data.add(new uagDeatails("https://", "favicon.ico", "down"));
+                uag.add(new uagList("https://","favicon.ico","down"));
             }
         TableColumn uagUrl = new TableColumn("UAG IP ADDRESS");
         uagUrl.setMinWidth(100);
@@ -171,6 +315,7 @@ try {
                     System.out.println("ON edit commit" + t);
                     ((uagDeatails) t.getTableView().getItems().get(
                             t.getTablePosition().getRow())).seturl(t.getNewValue());
+                    uag.get(t.getTablePosition().getRow()).setUrl(t.getNewValue());
                 }
             }
     );
@@ -187,6 +332,7 @@ try {
                     System.out.println("ON edit commit" + t);
                     ((uagDeatails) t.getTableView().getItems().get(
                             t.getTablePosition().getRow())).sethealth(t.getNewValue());
+                    uag.get(t.getTablePosition().getRow()).setHealthName(t.getNewValue());
                 }
             }
     );
@@ -215,6 +361,7 @@ try {
         
     }
 
+
 public static class uagDeatails{
   private final SimpleStringProperty url;
         private final SimpleStringProperty healthFileName;  
@@ -242,6 +389,41 @@ public static class uagDeatails{
     public void sethealth(String healthfile) {
             this.healthFileName.set(healthfile);
         }
-}    
+}
+
+class uagList{
+    String url,healthName,status;
+    uagList(String url,String healthName,String status)
+    {
+        this.url=url;
+        this.healthName=healthName;
+        this.status=status;
+    }
+
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
+
+        public String getHealthName() {
+            return healthName;
+        }
+
+        public void setHealthName(String healthName) {
+            this.healthName = healthName;
+        }
+
+        public String getStatus() {
+            return status;
+        }
+
+        public void setStatus(String status) {
+            this.status = status;
+        }
+    
+}
     
 }
